@@ -1,12 +1,127 @@
 @import "nullstyle.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #424551;
 }
 .wrapper {
   overflow: hidden;
   min-height: 100%;
 }
 .container {
-  max-width: 1040px;
+  max-width: 830px;
   margin: 0 auto;
+  padding: 0 10px;
+}
+.block__header {
+  margin: 0px 0px 40px 0px;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+  align-items: center;
+  padding: 12px 0px 0px 0px;
+  margin: 0px 0px 26px 0px;
+  color: #1e212c;
+}
+.header__subtitle {
+  color: #787a80;
+}
+.subtitle-date {
+  background: url("../img/calendar.png") left center no-repeat;
+  padding: 0px 0px 0px 24px;
+  margin: 0px 24px 0px 0px;
+}
+.subtitle-read {
+  background: url("../img/time.png") left center no-repeat;
+  padding: 0px 0px 0px 24px;
+}
+.statistics__img {
+  margin: 0px 0px 60px 0px;
+}
+.content__topic {
+  margin: 0px 0px 48px 0px;
+}
+.topic__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0px 0px 24px 0px;
+  color: #1e212c;
+}
+.topic__subtitle-one {
+  margin: 0px 0px 40px 0px;
+}
+.content__quote {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1e212c;
+  margin: 0px 0px 48px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.quote__title {
+  background: url("../img/braces.png") left top no-repeat;
+  padding: 0px 0px 0px 58px;
+}
+.content__subtitle {
+  margin: 0px 0px 60px 0px;
+}
+.subtitle-text {
+  margin: 0px 0px 24px 0px;
+}
+.list {
+  margin: 0px 0px 24px 0px;
+}
+.item {
+  background: url("../img/check.png") left center no-repeat;
+  padding: 0px 0px 0px 32px;
+  margin: 0px 0px 4px 0px;
+}
+.block__createx {
+  padding: 50px 0px;
+}
+.createx__title {
+  color: #1e212c;
+  margin: 0px 0px 40px 0px;
+}
+.question-title {
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0px 0px 8px 0px;
+}
+.question-subtitle {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+}
+
+.createx__list {
+  max-width: 390px;
+  margin: 0px 0px 48px 0px;
+}
+.item-two {
+  padding: 0px 0px 0px 32px;
+  background: url("../img/check.png") left 4px no-repeat;
+  margin: 0px 0px 12px 0px;
+}
+.last {
+  margin: 0;
+}
+
+.createx__button {
+  display: inline-block;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  padding: 11px 32px;
 }
